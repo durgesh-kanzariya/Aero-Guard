@@ -18,7 +18,7 @@ def add_remaining_useful_life(df):
     return df
 
 if __name__ == "__main__":
-    train_file = "data/train_FD001.txt"
+    train_file = "../data/train_FD001.txt"
     
     if os.path.exists(train_file):
         df = load_data(train_file)
@@ -27,6 +27,6 @@ if __name__ == "__main__":
         print("✅ Data Loaded and RUL Calculated!")
         print(df[['unit_nr', 'time_cycles', 'RUL']].head())
 
-        df.to_csv("data/processed_train.csv", index=False)
+        df.to_csv("../data/processed_train.csv", index=False)
     else:
         print("❌ Still can't find the data! Make sure the .txt files are inside the 'data' folder.")
