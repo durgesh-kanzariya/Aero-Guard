@@ -1,9 +1,9 @@
-pandas
+streamlit>=1.40.0
+pandas>=2.0.0
 numpy
 scikit-learn
-streamlit
+xgboost
+plotly
+joblib
 matplotlib
 seaborn
-joblib
-plotly
-xgboost
