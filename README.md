@@ -11,7 +11,7 @@
 Utilizing the **NASA CMAPSS** dataset, this project implements an **XGBoost Regressor** trained on over **20,000+ sensor readings**. The model leverages advanced feature engineering (Rolling Means, Standard Deviations, and Lag Features) to achieve **~85% Accuracy**, enabling proactive maintenance scheduling and failure prevention.
 
 ## 🚀 Live Demo
-*(Optional: If you deploy this to Streamlit Cloud, put the link here. Otherwise, delete this line)*
+*[aero-guard.streamlit.app](https://aero-guard.streamlit.app)*
 
 ## 🛠️ Tech Stack
 * **Language:** Python
@@ -40,7 +40,7 @@ Aero-Guard/
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/durgesh-kanzariya/Aero-Guard.git](https://github.com/durgesh-kanzariya/Aero-Guard.git)
+    git clone https://github.com/durgesh-kanzariya/Aero-Guard.git
     cd Aero-Guard
     ```
 
